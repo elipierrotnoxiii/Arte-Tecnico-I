@@ -954,8 +954,8 @@
     "m_ObjectId": "0977e157c955461483e8948f4e5e29aa",
     "m_Title": "Refraction",
     "m_Position": {
-        "x": -888.9999389648438,
-        "y": 1899.4998779296875
+        "x": -888.9998779296875,
+        "y": 1898.9998779296875
     }
 }
 
@@ -1622,7 +1622,7 @@
     "m_Title": "Depth Color",
     "m_Position": {
         "x": -684.9999389648438,
-        "y": 2673.5
+        "y": 2672.999755859375
     }
 }
 
@@ -1695,8 +1695,8 @@
     "m_ObjectId": "341c788a5d394b4ab7c9e33a30a3916d",
     "m_Title": "Foam",
     "m_Position": {
-        "x": -1312.999755859375,
-        "y": 3142.499755859375
+        "x": -1312.9998779296875,
+        "y": 3141.999755859375
     }
 }
 
@@ -2042,7 +2042,7 @@
     "overrideHLSLDeclaration": false,
     "hlslDeclarationOverride": 0,
     "m_Hidden": false,
-    "m_Value": 0.0,
+    "m_Value": 3.0,
     "m_FloatType": 0,
     "m_RangeValues": {
         "x": 0.0,
@@ -3226,8 +3226,8 @@
     "m_ObjectId": "941c58edce2447faa520394c8630b2cb",
     "m_Title": "Interpolaciones",
     "m_Position": {
-        "x": 71.99999237060547,
-        "y": 2673.5
+        "x": 71.99998474121094,
+        "y": 2672.999755859375
     }
 }
 
@@ -3712,9 +3712,9 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": 716.0000610351563,
-            "y": 2016.0001220703125,
-            "width": 207.99993896484376,
+            "x": 749.0,
+            "y": 2012.9998779296875,
+            "width": 208.0,
             "height": 302.9998779296875
         }
     },
@@ -4998,7 +4998,7 @@
     "overrideHLSLDeclaration": false,
     "hlslDeclarationOverride": 0,
     "m_Hidden": false,
-    "m_Value": 0.0,
+    "m_Value": 1.0,
     "m_FloatType": 0,
     "m_RangeValues": {
         "x": 0.0,
