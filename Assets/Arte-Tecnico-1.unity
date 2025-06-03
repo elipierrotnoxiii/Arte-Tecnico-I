@@ -233,13 +233,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 147797026}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.23201734, y: -0.2612495, z: -0.77898234, w: 0.5206758}
+  m_LocalRotation: {x: 0.41974622, y: 0.43415987, z: 0.77590466, w: -0.18245645}
   m_LocalPosition: {x: 36.1, y: 12.78, z: 26.73}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 189.521, y: 500.031, z: 430.987}
+  m_LocalEulerAnglesHint: {x: 235.782, y: 241.232, z: 351.68402}
 --- !u!1001 &152336688
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1210,6 +1210,7 @@ GameObject:
   - component: {fileID: 1305583247}
   - component: {fileID: 1305583246}
   - component: {fileID: 1305583249}
+  - component: {fileID: 1305583250}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -1256,9 +1257,9 @@ Camera:
     y: 0
     width: 1
     height: 1
-  near clip plane: 0.3
-  far clip plane: 1000
-  field of view: 60
+  near clip plane: 3.31
+  far clip plane: 1007.68
+  field of view: 34.9
   orthographic: 0
   orthographic size: 5
   m_Depth: -1
@@ -1284,8 +1285,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1305583245}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.0057081017, y: 0.97175914, z: -0.23471898, w: -0.023634056}
-  m_LocalPosition: {x: 22.42704, y: 16.965734, z: 40.80195}
+  m_LocalRotation: {x: -0.037324645, y: 0.9618864, z: -0.1706586, w: -0.21037363}
+  m_LocalPosition: {x: 39.05341, y: 15.062599, z: 46.364227}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1335,6 +1336,23 @@ MonoBehaviour:
     m_MipBias: 0
     m_VarianceClampScale: 0.9
     m_ContrastAdaptiveSharpening: 0
+--- !u!114 &1305583250
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1305583245}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6881c2fa2239b4d73a7e74e3870ccc58, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Target: {fileID: 1544630710}
+  Distance: 34.2
+  YOffset: 12.53
+  Angle: 24.673735
+  OrbitSpeed: 16.9
 --- !u!1001 &1312536387
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1696,6 +1714,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: abe8e104f111c844c8b60383888576f4, type: 3}
+--- !u!4 &1544630710 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400000, guid: abe8e104f111c844c8b60383888576f4, type: 3}
+  m_PrefabInstance: {fileID: 1544630709}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1570294833
 GameObject:
   m_ObjectHideFlags: 0
@@ -2270,7 +2293,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: d65570657b713234485418e34d96fa89, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.6977
+      value: -1.76
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: d65570657b713234485418e34d96fa89, type: 3}
       propertyPath: m_LocalPosition.z
