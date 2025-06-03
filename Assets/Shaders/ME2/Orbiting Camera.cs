@@ -3,7 +3,7 @@ using UnityEngine;
 [ExecuteAlways, RequireComponent(typeof(Camera))]
 public class OrbitingCamera : MonoBehaviour
 {
-   private Transform _transform;
+    private Transform _transform;
 
     [Header("Orbit Settings")]
     public Transform Target;

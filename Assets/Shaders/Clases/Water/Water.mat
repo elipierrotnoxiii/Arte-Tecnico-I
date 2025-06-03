@@ -56,26 +56,44 @@ Material:
     m_Ints: []
     m_Floats:
     - _Depth: 2
+<<<<<<< HEAD
+    - _Depth_Distance: 1
+    - _Foam_Amount: 4
+    - _Foam_Cut_Off: 20
+=======
     - _Depth_Distance: 2.5
     - _Foam_Amount: 1
     - _Foam_Cut_Off: 4.23
+>>>>>>> respaldo
     - _Lerp_T: 1
     - _QueueControl: 0
     - _QueueOffset: 0
     - _Refraction_Strength: 0.01
     - _Strength: 0.02
     - _Use_Normal_Height: 1
+<<<<<<< HEAD
+    - _Wave_Speed: 1
+    - _Wave_Strength: 0.17
+    m_Colors:
+    - _Deep_Color: {r: 0.19624422, g: 0.6603774, b: 0.22251585, a: 0.9137255}
+=======
     - _Wave_Speed: 0.3
     - _Wave_Strength: 0.6
     m_Colors:
     - _Deep_Color: {r: 0, g: 0.0003507733, b: 0.025943393, a: 0.3882353}
+>>>>>>> respaldo
     - _Foam_Color: {r: 1, g: 1, b: 1, a: 1}
     - _Foam_Limits: {r: 25.4, g: 37.09, b: 0, a: 0}
     - _Foam_Scale: {r: 1, g: 10, b: 0, a: 0}
     - _Foam_Speed: {r: 0.25, g: 1, b: 0, a: 0}
     - _Scale: {r: 100, g: 100, b: 0, a: 0}
+<<<<<<< HEAD
+    - _Shallow_Color: {r: 0, g: 0.15128122, b: 0.85882354, a: 0.54509807}
+    - _Speed: {r: -2, g: -1, b: 0, a: 0}
+=======
     - _Shallow_Color: {r: 0.0806083, g: 0, b: 0.4528302, a: 0.3137255}
     - _Speed: {r: 1, g: -1, b: 0, a: 0}
+>>>>>>> respaldo
     - _Tiling: {r: 1, g: 10, b: 0, a: 0}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
